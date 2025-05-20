@@ -367,10 +367,24 @@ export const FRACTAL_INFO: Record<string, ExtPlatformInfo> = {
   OPFractal: {
     displayTitle: 'Optimism Fractal',
     fractalName: 'OPFractal',
-    submitUrl: 'https://optimismfractal.web.app',
+    submitUrl: 'https://of.frapps.xyz',
     platform: 'Optimism',
-    accountInfoUrl: 'https://optimistic.etherscan.io/address',
+    accountInfoUrl: 'https://optimism.blockscout.com/address',
   },
+  // OPFractalCandidate1: {
+  //   displayTitle: 'Optimism Fractal 2 Candidate 1',
+  //   fractalName: 'OPFractalCandidate1',
+  //   submitUrl: 'https://of.frapps.xyz',
+  //   platform: 'Optimism',
+  //   accountInfoUrl: 'https://optimism.blockscout.com/address',
+  // },
+  // OPFractalCandidate1Test: {
+  //   displayTitle: 'Optimism Fractal 2 Candidate 1',
+  //   fractalName: 'OPFractalCandidate1',
+  //   submitUrl: 'https://test2.frapps.xyz',
+  //   platform: 'Optimism',
+  //   accountInfoUrl: 'https://optimistic.etherscan.io/address',
+  // },
 };
 export const DEFAULT_PLATFORM = FRACTAL_INFO[DEFAULT_FRACTAL_NAME].platform;
 // TODO: Make it so that you don't need to duplicate info with here with FRACTAL_INFO
